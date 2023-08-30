@@ -191,8 +191,8 @@ select {
     width: 100%;
     height: 100%;
     display: block;
-    background: #16bffd; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #16bffd, #cb3066); /* Chrome 10-25, Safari 5.1-6 */
+    background: #16bffd;
+    background: -webkit-linear-gradient(to right, #16bffd, #cb3066); 
     background: linear-gradient(to right, #16bffd, #cb3066);
     /*background-image: -moz-linear-gradient(90deg, #201133 0%, #4f1171 100%);
     background-image: -webkit-linear-gradient(90deg, #201133 0%, #4f1171 100%);
@@ -474,9 +474,10 @@ select {
 }
 
 .main_content {
-    background: #16bffd; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #16bffd, #cb3066); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #16bffd, #cb3066);
+    background-image: url(../img/bg.png);
+   /* background: #16bffd; 
+    background: -webkit-linear-gradient(to right, #16bffd, #cb3066); 
+    background: linear-gradient(to right, #16bffd, #cb3066);*/
 
     /*background: url(../img/bg.png) no-repeat;*/
     background-size: cover;

@@ -749,7 +749,7 @@ select {
 #s {
     width: 100px;
     left: 180px;
-    bottom: -30px;
+    bottom: -20px;
 }
 
 @media(max-width: 768px) {

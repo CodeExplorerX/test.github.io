@@ -636,6 +636,12 @@ select {
     z-index: -1
 }
 
+@media(max-width:768px) {
+    .s_title::before {
+        top: 20px;
+    }
+}
+
 .s_boxes {
     margin-top: 85px
 }
@@ -786,6 +792,13 @@ select {
     height: 98px;
     background: url(../img/heart.png) no-repeat;
     z-index: -1
+}
+
+@media(max-width:768px) {
+    .p_title::before {
+        top: 25px;
+        left: 50%;
+    }
 }
 
 .p_boxes {

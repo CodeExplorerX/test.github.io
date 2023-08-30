@@ -815,12 +815,6 @@ select {
     height: 100%
 }
 
-.p_content {
-    opacity: 0;
-    transition: all .3s;
-    border-radius: 10px
-}
-
 .p_light {
     position: absolute;
     width: 100%;

@@ -1,3 +1,6 @@
+/* === GOOGLE FONTS === */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Mulish:wght@900&display=swap');
+
 ::-webkit-scrollbar {
     width: 2px
 }
@@ -18,7 +21,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: montserrat_regular
+    font-family: Montserrat
 }
 
 a {
@@ -385,7 +388,7 @@ select {
 .hi_text1 {
     color: #fff;
     font-size: 14px;
-    font-family: montserrat_regular;
+    font-family: Montserrat;
     letter-spacing: 5.7px;
     text-transform: uppercase
 }
@@ -393,7 +396,7 @@ select {
 .hi_text2 {
     color: #fff;
     font-size: 68px;
-    font-family: montserrat_regular;
+    font-family: Montserrat;
     text-transform: uppercase;
     margin-left: -2px
 }
@@ -405,7 +408,7 @@ select {
 .hi_text3 {
     color: #423c4c;
     font-size: 15px;
-    font-family: montserrat_regular
+    font-family: Montserrat
 }
 
 .hi_text3 font {
@@ -582,7 +585,7 @@ select {
 
 .otziv_info p:nth-child(2) {
     font-size: 10px;
-    font-family: montserrat_regular;
+    font-family: Montserrat;
     color: #6e6283;
     text-transform: uppercase
 }
@@ -606,7 +609,7 @@ select {
 
 .otziv_text {
     font-size: 14px;
-    font-family: montserrat_regular;
+    font-family: Montserrat;
     color: #fff;
     margin-top: 40px;
     margin-left: 3px;
@@ -620,7 +623,7 @@ select {
 .open_symbol {
     font-size: 49px;
     color: #fff;
-    font-family: montserrat_regular;
+    font-family: Montserrat;
     position: absolute;
     left: 0;
     top: 0
@@ -629,7 +632,7 @@ select {
 .close_symbol {
     font-size: 49px;
     color: #fff;
-    font-family: montserrat_regular;
+    font-family: Montserrat;
     position: absolute;
     right: 0;
     bottom: -55px
@@ -709,24 +712,25 @@ select {
     font-size: 16px;
     font-family: montserrat_bold;
     color: #fff;
-    text-transform: uppercase
+    text-transform: uppercase;
+    margin: 0 auto;
 }
 
 .s_price {
     position: absolute;
     font-size: 14px;
-    font-family: montserrat_regular;
+    font-family: Montserrat;
     color: #7f2bdf;
     background-color: #fff;
     padding: 11px 14px;
-    top: 50px;
+    top: 230px;
     white-space: nowrap;
-    border-radius: 3px 16px 3px 16px
+    border-radius: 3px 16px 3px 16px;
 }
 
 .s_info {
     font-size: 14px;
-    font-family: montserrat_regular;
+    font-family: Montserrat;
     color: #fff;
     margin-top: 30px;
     position: relative;
@@ -744,15 +748,16 @@ select {
 
 #s {
     width: 100px;
-    left: 170px;
+    left: 180px;
     bottom: -30px;
 }
 
 @media(max-width: 768px) {
     #s {
-        width: 100px;
-        left: 370px;
-        bottom: 80px;
+        width: 120px;
+        height: 120px;
+        left: 220px;
+        bottom: 10px;
     }
 }
 
@@ -902,7 +907,7 @@ select {
 .footer_menu a {
     color: #fff;
     font-size: 14px;
-    font-family: montserrat_regular;
+    font-family: Montserrat;
     transition: all .3s
 }
 
@@ -1033,7 +1038,7 @@ select {
 .user_balance {
     font-size: 17px;
     color: #fff;
-    font-family: montserrat_regular
+    font-family: Montserrat
 }
 
 .profile_menu {
@@ -1410,7 +1415,7 @@ select {
     min-height: 28px;
     color: #fff;
     font-size: 12px;
-    font-family: montserrat_regular;
+    font-family: Montserrat;
     margin-top: -15px;
     transition: all .3s
 }
@@ -1485,7 +1490,7 @@ select {
 .dm_text {
     margin-top: 23px;
     font-size: 12px;
-    font-family: montserrat_regular;
+    font-family: Montserrat;
     color: #fff;
     overflow-x: hidden;
     overflow-y: auto;
@@ -1735,7 +1740,7 @@ select {
 .pb_desc {
     color: #b384d9;
     font-size: 11px;
-    font-family: montserrat_regular;
+    font-family: Montserrat;
     cursor: pointer
 }
 
@@ -1797,7 +1802,7 @@ select {
 .pm_text {
     margin-top: 23px;
     font-size: 12px;
-    font-family: montserrat_regular;
+    font-family: Montserrat;
     color: #fff;
     overflow-x: hidden;
     overflow-y: auto;
@@ -2116,7 +2121,7 @@ select {
     width: max-content;
     font-size: 10px;
     color: #fff;
-    font-family: montserrat_regular;
+    font-family: Montserrat;
     transition: all .3s
 }
 

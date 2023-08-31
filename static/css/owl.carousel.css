@@ -10,7 +10,7 @@
     position: relative;
     -ms-touch-action: pan-Y;
     touch-action: manipulation;
-    -moz-backface-visibility: hidden
+    -moz-backface-visibility: hidden;
 }
 
 .owl-carousel .owl-stage:after {
@@ -24,7 +24,7 @@
 
 .owl-carousel .owl-stage-outer {
     position: relative;
-    -webkit-transform: translate3d(0px, 0px, 0px)
+    -webkit-transform: translate3d(0px, 0px, 0px);
 }
 
 .owl-carousel .owl-wrapper, .owl-carousel .owl-item {
@@ -40,7 +40,7 @@
     position: relative;
     min-height: 1px;
     float: left;
-    -webkit-backface-visibility: hidden;
+    : hidden;
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none
 }

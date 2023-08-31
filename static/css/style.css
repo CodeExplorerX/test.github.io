@@ -495,7 +495,8 @@ select {
 }
 
 .about {
-    padding-top: 240px
+    padding-top: 240px;
+    padding-bottom: 100px;
 }
 
 .about_title {
@@ -814,7 +815,7 @@ select {
 }
 
 .portfolio {
-    padding-top: 120px
+    padding-top: 300px
 }
 
 .p_title {

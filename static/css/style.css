@@ -423,8 +423,8 @@ select {
     border-radius: 10px;
     background-size: 200% auto;
     color: white;
-    width: 192px;
-    height: 56px;
+    width: 160px;
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -432,8 +432,8 @@ select {
     position: relative;
     z-index: 0;
     font-size: 16px;
-    left: 250px;
-    top: 97px;
+    left: 190px;
+    top: 90px;
     font-family: montserrat_bold;
     text-shadow: 0 1px 0 rgba(255, 255, 255, .23);
     text-transform: uppercase;
@@ -455,8 +455,8 @@ select {
     border-radius: 10px;
     background-size: 200% auto;
     color: white;
-    width: 192px;
-    height: 56px;
+    width: 160px;
+    height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -464,7 +464,6 @@ select {
     position: relative;
     z-index: 0;
     font-size: 16px;
-    left: 10px;
     font-family: montserrat_bold;
     text-shadow: 0 1px 0 rgba(255, 255, 255, .23);
     text-transform: uppercase;
@@ -790,7 +789,8 @@ select {
     position: relative;
     z-index: 1;
     overflow-x: hidden;
-    overflow-y: auto
+    overflow-y: auto;
+    width: max-content;
 }
 
 .s_img {
